@@ -13,8 +13,8 @@ npm run start
 
 ```
 
-## visit address
+## Visit address
 
 http://localhost:3002/jsplumb
 
-http://localhost:3002/jsplumb
+http://localhost:3002/jointjs
