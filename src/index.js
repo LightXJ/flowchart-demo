@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import JsPlumbDemo from './components/JsPlumb';
 import JointJSDemo from './components/JointJS';
 import { Router, Route, Redirect } from 'react-router-dom';

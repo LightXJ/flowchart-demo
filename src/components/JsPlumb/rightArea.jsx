@@ -32,7 +32,6 @@ export default class RightArea extends React.Component {
     initialized: false,
     dialogVisible: false,
     datas: null,
-    dialogVisible: false,
     dialogTitle: '',
     labelText: '',
     nodes: [],

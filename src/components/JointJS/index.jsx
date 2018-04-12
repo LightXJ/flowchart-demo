@@ -4,8 +4,8 @@ import joint from 'jointjs';
 class AppComponent extends React.Component {
   componentDidMount() {
     console.log(joint);
-    let graph = new joint.dia.Graph
-    let paper = new joint.dia.Paper({
+    let graph = new joint.dia.Graph();
+    new joint.dia.Paper({
         el: this.myholder,
         width: 600,
         height: 400,
