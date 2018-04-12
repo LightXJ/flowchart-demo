@@ -1,6 +1,7 @@
 # flowchart-demos
 
-> Build with React, there are two demos 
+> Build with React, there are two demos which are jsplumb demo and jointjs demo.
+![](https://github.com/LightXJ/flowchart-demos/edit/master/screenshot/demo1.png)
 
 ## Build Setup
 
@@ -13,6 +14,8 @@ npm run start
 
 ```
 
-## visit address
+## Visit address
+
 http://localhost:3002/jsplumb
-http://localhost:3002/jsplumb
+
+http://localhost:3002/jointjs
