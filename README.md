@@ -1,6 +1,6 @@
 # flowchart-demos
 
-> Build with React
+> Build with React, there are two demos 
 
 ## Build Setup
 
@@ -12,3 +12,7 @@ npm install
 npm run start
 
 ```
+
+## visit address
+http://localhost:3002/jsplumb
+http://localhost:3002/jsplumb
