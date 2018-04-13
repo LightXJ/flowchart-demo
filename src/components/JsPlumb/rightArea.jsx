@@ -119,11 +119,15 @@ export default class RightArea extends React.Component {
 
   initNodes = (node) => {
     this.rjsp.draggable(node, {constrain:true});
+    this.rjsp.setSuspendDrawing(true);
     DynamicAnchors.map(anchor => this.rjsp.addEndpoint(node, anEndpoint, { anchor }));
+    this.rjsp.setSuspendDrawing(false,true);
   }
 
   initEdges = (edges) => {
+    this.rjsp.setSuspendDrawing(true);
     edges.map(edge => this.rjsp.connect(edge, Common).getOverlay('label').setLabel(edge.labelText))
+    this.rjsp.setSuspendDrawing(false,true);
   }
 
   editLabelText = (info) => {;
